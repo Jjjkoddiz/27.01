@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  background: url(../image/widen_960_crop_5184_3348_0_54_q90_1278442_965d22c492fd72e7c9a33df5d.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.butcontainter {
+  display: flex;
+  gap: 50px;
+}
+
+.Glassmorphismbut {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.Glassmorphismbut:hover {
+  background-color: rgba(255, 250, 250, 0.3);
+}
+
+.Glassmorphismbut:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Neomorphbut {
+  background: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #333;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Neomorphbut:hover {
+  box-shadow: 3px 3px 7px, -3px -3px 7px #ffffff;
+}
+
+.Neomorphbut:active {
+  box-shadow: inset 2px 2px 5px #444444, inset -2px -2px 5px #ffffff;
+  transform: translateY(1px);
+}
+
+.styledbutton {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, margin 0.3s ease;
+  cursor: pointer;
+  background-color: lightsteelblue; /*
+  /* transition: background-color 0.3s ease, margin 0.3s ease;
+  background-color: lightsteelblue; */
+}
+/* .box {
+  background: lightblue;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+section {
+  height: 25vw;
+}
+
+.section1 {
+  background: cornsilk;
+}
+
+.section2 {
+  background: darkblue;
+}
+
+.section3 {
+  background: blueviolet;
+}
+
+button {
+  border-radius: 5px;
+  padding: 1% 2%;
+  background: black;
+  color: aliceblue;
+  margin-top: 10%;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+} */
