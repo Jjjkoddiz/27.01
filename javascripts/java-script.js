@@ -5,11 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
     styledbutton.addEventListener('click', function () {
       if (styledbutton.style.backgroundColor === 'lightsteelblue') {
         styledbutton.style.backgroundColor = 'yellow';
-        styledbutton.style.margin = '2vw';
+        styledbutton.style.marginLeft = '2vw';
+        styledbutton.style.marginRight = '2vw';
         console.log('change color');
       } else {
         styledbutton.style.backgroundColor = 'lightsteelblue';
-        styledbutton.style.margin = '1vw';
+        styledbutton.style.marginLeft = '1vw';
+        styledbutton.style.marginRight = '1vw';
       }
     });
   });
